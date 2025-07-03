@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { background-color: #f0f8ff; }
+        h1 { color: #2a52be; }
+        p { font-size: 18px; }
+        ul { color: #333; }
+        .fancy-btn {
+            background: linear-gradient(90deg, #2a52be 0%, #00c6ff 100%);
+            color: #fff;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 16px rgba(42,82,190,0.15);
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+            letter-spacing: 1px;
+            outline: none;
+        }
+        .fancy-btn:hover, .fancy-btn:focus {
+            background: linear-gradient(90deg, #00c6ff 0%, #2a52be 100%);
+            transform: translateY(-2px) scale(1.04);
+            box-shadow: 0 8px 24px rgba(42,82,190,0.25);
+        }
+        .fancy-btn:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 8px rgba(42,82,190,0.10);
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Examples</h1>
+    <h2>Colors</h2>
+    <p style="color: crimson;">This text is crimson.</p>
+    <p style="background-color: #e0ffe0;">This paragraph has a light green background.</p>
+
+    <h2>Fonts</h2>
+    <p style="font-family: 'Courier New', Courier, monospace;">This uses a monospace font.</p>
+    <p style="font-size: 24px;">This text is larger.</p>
+
+    <h2>Borders & Padding</h2>
+    <div style="border: 12px solid #a7b3d4; padding: 100px; width: 200px;">Box with border and padding</div>
+
+    <h2 style="color: yellow;background-color:black;margin: 100px;">Lists</h2>
+    <ul style="list-style-type: lower-roman;">
+        <li>Square bullet</li>
+        <li>Another item</li>
+    </ul>
+    <ol style="list-style-type: upper-roman;">
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+
+    <h2>Table</h2>
+    <table style="border-collapse: collapse; width: 300px;">
+        <tr>
+            <th style="border: 1px solid #333; background: #f0f8ff;">Name</th>
+            <th style="border: 1px solid #333; background: #f0f8ff;">Age</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #333;">Alice</td>
+            <td style="border: 1px solid #333;">23</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #333;">Bob</td>
+            <td style="border: 1px solid #333;">30</td>
+        </tr>
+    </table>
+
+    <h2 id="button1">Button</h2>
+    <button class="fancy-btn">Click Me</button>
+    <style>
+        #button1{
+            color: blueviolet;
+            font-size: 40px;
+            font-family: monospace;
+        }
+    </style>
+    <style>
+        body { background-color: #f0f8ff; }
+        h1 { color: #2a52be; }
+        p { font-size: 18px; }
+        ul { color: #333; }
+        .fancy-btn {
+            background: linear-gradient(90deg, #2a52be 0%, #00c6ff 100%);
+            color: #752424;
+            border: none;
+            padding: 12px 32px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 16px rgba(42,82,190,0.15);
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+            letter-spacing: 1px;
+            outline: none;
+        }
+        .fancy-btn:hover, .fancy-btn:focus {
+            background: linear-gradient(90deg, #00c6ff 0%, #2a52be 100%);
+            transform: translateY(-2px) scale(1.04);
+            box-shadow: 0 8px 24px rgba(42,82,190,0.25);
+        }
+        .fancy-btn:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 8px rgba(42,82,190,0.10);
+        }
+    </style>
+</body>
+</html>
